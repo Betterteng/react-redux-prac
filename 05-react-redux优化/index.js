@@ -5,9 +5,6 @@ import store from './redux/store';
 import {Provider} from 'react-redux';
 
 reactDOM.render(
-  /*
-    给后代容器组件传递 store，这样就不用一个一个的传了。。。
-   */
   <Provider store={store}>
     <App/>
   </Provider>, 
